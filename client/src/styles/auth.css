@@ -1,0 +1,89 @@
+
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #ff9900;
+}
+
+.meta-container {
+  background-color: #111; /* deep black with a bit of tone */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(255, 77, 77, 0.3);
+}
+
+.meta-form h1 {
+  color: #ff4d4d; /* strong red heading */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.meta-form label {
+  display: block;
+  color: #ff9900;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.meta-form input {
+  width: 93%;
+  padding: 12px;
+  background-color: #222;
+  border: 2px solid #ff4d4d;
+  border-radius: 6px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.meta-form input::placeholder {
+  color: #ffb84d;
+}
+
+.meta-form input:focus {
+  border-color: #ff9900;
+  outline: none;
+  box-shadow: 0 0 6px rgba(255, 153, 0, 0.5);
+}
+
+.meta-form button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #ff4d4d, #ff9900);
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.meta-form button:hover {
+  opacity: 0.85;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.form-footer a {
+  color: #ff4d4d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+}

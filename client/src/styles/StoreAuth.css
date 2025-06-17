@@ -1,0 +1,93 @@
+.store-auth-container {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.store-auth-form {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(255, 77, 77, 0.3);
+  color: #ff9900;
+}
+
+.store-auth-form h1 {
+  color: #ff4d4d;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.store-auth-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.store-auth-form input {
+  width: 93%;
+  padding: 12px;
+  background-color: #222;
+  border: 2px solid #ff4d4d;
+  border-radius: 6px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.store-auth-form input::placeholder {
+  color: #ffb84d;
+}
+
+.store-auth-form input:focus {
+  border-color: #ff9900;
+  outline: none;
+  box-shadow: 0 0 6px rgba(255, 153, 0, 0.5);
+}
+
+.store-auth-form button[type='submit'] {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #ff4d4d, #ff9900);
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.store-auth-form button[type='submit']:hover {
+  opacity: 0.85;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-footer p {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.form-footer button {
+  background: none;
+  border: none;
+  color: #ff4d4d;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.form-footer button:hover {
+  text-decoration: underline;
+}

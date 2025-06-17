@@ -1,0 +1,67 @@
+.user-dashboard {
+  background-color: #000;
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #ff9900;
+}
+
+.user-info {
+  background-color: #111;
+  border: 2px solid #ff4d4d;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.user-info h2 {
+  margin-bottom: 5px;
+  font-size: 22px;
+  color: #ff9900;
+}
+
+.user-info p {
+  color: #ccc;
+  font-size: 16px;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #ff4d4d;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.dashboard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dashboard-card {
+  background-color: #111;
+  border: 2px solid #ff4d4d;
+  border-radius: 10px;
+  padding: 20px;
+  width: 260px;
+  text-decoration: none;
+  color: #ff9900;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 153, 0, 0.6);
+}
+
+.dashboard-card h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #ff9900;
+}
+
+.dashboard-card p {
+  font-size: 14px;
+  color: #ccc;
+}

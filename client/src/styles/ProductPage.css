@@ -1,0 +1,119 @@
+.product-page {
+  padding: 40px;
+  background-color: #000;
+  color: #ff9900;
+  min-height: 100vh;
+}
+
+.page-title {
+  color: #ff4d4d;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.product-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.product-card-wrapper {
+  flex: 1 1 300px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.product-card-wrapper:hover {
+  transform: scale(1.03);
+}
+
+.product-card {
+  background: linear-gradient(145deg, #1a1a1a, #000);
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(255, 77, 77, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 420px;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+  border: 2px solid transparent;
+}
+
+.product-card:hover {
+  border-color: #ff4d4d;
+  box-shadow: 0 0 25px rgba(255, 153, 0, 0.3);
+}
+
+.image-placeholder {
+  background-color: #222;
+  color: #ffb84d;
+  font-size: 14px;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border: 1px dashed #ff9900;
+}
+
+.product-card h3 {
+  color: #ff9900;
+  font-size: 18px;
+  margin: 0 0 10px;
+  line-height: 1.2;
+  height: 45px;
+  overflow: hidden;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  flex-grow: 1;
+  max-height: 60px;
+  overflow: hidden;
+}
+
+.price {
+  color: #ff4d4d;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 12px 0 10px;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.card-buttons button {
+  background: linear-gradient(to right, #ff4d4d, #ff9900);
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+  box-shadow: 0 3px 6px rgba(255, 153, 0, 0.2);
+  width: 100%;
+}
+
+.card-buttons button:hover {
+  opacity: 0.9;
+  box-shadow: 0 5px 12px rgba(255, 153, 0, 0.4);
+}

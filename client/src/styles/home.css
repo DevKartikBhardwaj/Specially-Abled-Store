@@ -1,0 +1,90 @@
+/* Base Container */
+.home-container {
+  background-color: #000;
+  padding: 0;
+  color: #ff9900;
+  min-height: 100vh;
+  margin-top: 80px;
+}
+
+/* Carousel Styling */
+.carousel {
+  width: 60vw;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(255, 77, 77, 0.3);
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
+
+.carousel .slides {
+  display: flex;
+  animation: scroll 12s infinite;
+}
+
+.carousel-img {
+    width: 60vw;
+    height: 240px;
+  object-fit: fill;
+}
+
+/* Optional: Carousel Auto-Scroll Animation */
+@keyframes scroll {
+  0% { transform: translateX(0%); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0%); }
+}
+
+/* Category Grid */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+  padding-top: 10px;
+  justify-items: center;
+}
+
+/* Responsive Grid Layout */
+@media (max-width: 900px) {
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .category-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Category Box Styling */
+.category-link {
+  text-decoration: none;
+  width: 100%;
+  max-width: 300px;
+}
+
+.category-box {
+  background-color: #111;
+  border: 2px solid #ff4d4d;
+  color: #ff9900;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 153, 0, 0.5);
+}
+
+.category-box h3 {
+  margin: 0;
+  color: #ff9900;
+  font-size: 1.2rem;
+}
