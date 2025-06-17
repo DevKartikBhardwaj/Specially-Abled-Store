@@ -75,23 +75,9 @@ Specially-Abled-Store/
 
 ---
 
-## Future Improvements
-
-- Multilingual voice support  
-- Product recommendations via voice  
-- Integration with screen readers (e.g., NVDA, JAWS)
-
----
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
